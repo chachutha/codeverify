@@ -12,6 +12,7 @@ test('verify', async ({page})=>{
     await page.waitForTimeout(5000)
 
     await page.locator("//a[normalize-space()='View profile']").click()
+    console.log("RUN")
     
     await page.waitForTimeout(3000)
 
